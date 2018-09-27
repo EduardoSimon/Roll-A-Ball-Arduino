@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 // Include the namespace required to use Unity UI
 using UnityEngine.UI;
@@ -7,8 +8,10 @@ using System.Collections;
 using System.Runtime.CompilerServices;
 using UnityEngine.Serialization;
 
-public class PlayerController : MonoBehaviour {
-	
+public class PlayerController : MonoBehaviour
+{
+
+	private const float ANGLE_MOVEMENT_THRESHOLD = 15.0f;
 	// Create public variables for player speed, and for the Text UI game objects
 	public float speed;
 	public Text countText;
@@ -20,6 +23,9 @@ public class PlayerController : MonoBehaviour {
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
 	private Rigidbody rb;
 	private int count;
+	float vertical;
+	float horizontal;
+	private MeshRenderer renderer;
 
 	// At the start of the game..
 	void Start ()
@@ -35,21 +41,22 @@ public class PlayerController : MonoBehaviour {
 
 		// Set the text property of our Win Text UI to an empty string, making the 'You Win' (game over message) blank
 		winText.text = "";
+
+		renderer = GetComponent<MeshRenderer>();
+
 	}
 
 	// Each physics step..
 	void FixedUpdate ()
 	{
-		float vertical;
-		float horizontal;
-		
-		if (Mathf.Abs(angleX) > 15f)
-			vertical = angleX > 0 ? -1 : 1;
+
+		if (Mathf.Abs(angleX) > ANGLE_MOVEMENT_THRESHOLD)
+			vertical = map(angleX,-90,90,1,-1);		
 		else
 			vertical = 0;
 
-		if (Mathf.Abs(angleZ) > 15f)
-			horizontal = angleZ > 0 ? 1 : -1;
+		if (Mathf.Abs(angleZ) > ANGLE_MOVEMENT_THRESHOLD)
+			horizontal = map(angleZ,-90,90,-1,1);		
 		else
 			horizontal = 0;
 
@@ -58,7 +65,9 @@ public class PlayerController : MonoBehaviour {
 
 		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
 		// multiplying it by 'speed' - our public player speed that appears in the inspector
-		rb.AddForce (movement * speed);
+		rb.AddForce (movement * speed,ForceMode.VelocityChange);
+
+		renderer.sharedMaterial.color = new Color(rb.velocity.x,rb.velocity.y,rb.velocity.z);
 	}
 
 	// When this game object intersects a collider with 'is trigger' checked, 
@@ -91,6 +100,11 @@ public class PlayerController : MonoBehaviour {
 			// Set the text value of our 'winText'
 			winText.text = "You Win!";
 		}
+	}
+	
+	float map(float s, float a1, float a2, float b1, float b2)
+	{
+		return b1 + (s-a1)*(b2-b1)/(a2-a1);
 	}
 	
 }
