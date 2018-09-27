@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
 	private Rigidbody rb;
 	private int count;
-	float vertical;
-	float horizontal;
+	public float vertical;
+	public float horizontal;
 	private MeshRenderer renderer;
 
 	// At the start of the game..
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 			vertical = 0;
 
 		if (Mathf.Abs(angleZ) > ANGLE_MOVEMENT_THRESHOLD)
-			horizontal = map(angleZ,-90,90,-1,1);		
+			horizontal = map(angleZ,90,-90,-1,1);		
 		else
 			horizontal = 0;
 
@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
 		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
 		// multiplying it by 'speed' - our public player speed that appears in the inspector
-		rb.AddForce (movement * speed,ForceMode.VelocityChange);
+		//rb.AddForce (movement * speed,ForceMode.VelocityChange);
 
 		renderer.sharedMaterial.color = new Color(rb.velocity.x,rb.velocity.y,rb.velocity.z);
 	}
