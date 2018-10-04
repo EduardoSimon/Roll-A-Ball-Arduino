@@ -56,16 +56,13 @@ public class PlayerController : MonoBehaviour
 			vertical = 0;
 
 		if (Mathf.Abs(angleZ) > ANGLE_MOVEMENT_THRESHOLD)
-			horizontal = map(angleZ,90,-90,-1,1);		
+			horizontal = map(angleZ,90,-90,1,-1);		
 		else
 			horizontal = 0;
 
-		// Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
 		Vector3 movement = new Vector3 (horizontal, 0.0f, vertical);
 
-		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
-		// multiplying it by 'speed' - our public player speed that appears in the inspector
-		//rb.AddForce (movement * speed,ForceMode.VelocityChange);
+		rb.AddForce (movement * speed,ForceMode.VelocityChange);
 
 		renderer.sharedMaterial.color = new Color(rb.velocity.x,rb.velocity.y,rb.velocity.z);
 	}

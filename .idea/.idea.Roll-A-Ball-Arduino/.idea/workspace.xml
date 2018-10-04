@@ -2,11 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468082bd-2aea-41f8-b69c-670bba24a023" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll-A-Ball-Arduino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll-A-Ball-Arduino/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll-A-Ball-Arduino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll-A-Ball-Arduino/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/MPUReader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/MPUReader/MPUReader.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/MPUReader/MPUReader.ino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/SerialCommand.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/SerialCommand.cpp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/SerialCommand.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/SerialCommand.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/UnityConnector.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/UnityConnector.ino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExample/SerialCommandExample.pde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExample/SerialCommandExample.pde.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExampleSoftwareSerial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExampleSoftwareSerial/SerialCommandExampleSoftwareSerial.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandExampleSoftwareSerial/SerialCommandExampleSoftwareSerial.ino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandHardwareOnlyExample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandHardwareOnlyExample/SerialCommandHardwareOnlyExample.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SerialCommandHardwareOnlyExample/SerialCommandHardwareOnlyExample.ino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SoftwareSerialCheck.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SoftwareSerialCheck/SoftwareSerialCheck.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/examples/SoftwareSerialCheck/SoftwareSerialCheck.ino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/keywords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ArduinoFiles/UnityConnector/keywords.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Materials/Bola.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Completed-Game/Materials/Bola.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Roll-a-ball.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Roll-a-ball.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/Rotator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/Rotator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ice.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ice.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/main.unity.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,98 +70,59 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="565" />
+          <entry key="cs" value="890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="565" />
+          <entry key="C#" value="890" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
-              <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-              <folding>
-                <marker date="1538037596715" expanded="true" signature="6:159" ph="..." />
-                <marker date="1538037596715" expanded="true" signature="206:3431" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="664:772" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="821:1019" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="877:935" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="968:1013" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="1156:1968" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="1386:1462" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="1499:1562" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="1599:1700" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2013:2123" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2165:2426" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2191:2420" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2477:2650" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2677:2713" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2735:2856" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2882:2994" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="2897:2988" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
-                <marker date="1538037596715" expanded="true" signature="3037:3362" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="3068:3355" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="3173:3244" ph="{...}" />
-                <marker date="1538037596715" expanded="true" signature="3400:3429" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlaneController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <marker date="1538040389945" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538040389945" expanded="true" signature="125:609" ph="{...}" />
-                <marker date="1538040389945" expanded="true" signature="227:605" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CustomScripts/ArduinoConnector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="832">
+              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
               <folding>
-                <marker date="1538042304894" expanded="false" signature="6:204" ph="..." />
-                <marker date="1538042304894" expanded="true" signature="251:3104" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="795:1204" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="1250:1997" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="1673:1905" ph="/* Add a physical force to our Player rigidbody using our 'movement' Vector3 above, ... */" />
-                <marker date="1538042304894" expanded="true" signature="2000:2143" ph="/* When this game object intersects a collider with 'is trigger' checked, ... */" />
-                <marker date="1538042304894" expanded="true" signature="2181:2581" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="2313:2578" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="2729:2994" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="2911:2991" ph="{...}" />
-                <marker date="1538042304894" expanded="true" signature="3056:3100" ph="{...}" />
+                <marker date="1538639472297" expanded="false" signature="6:159" ph="..." />
+                <marker date="1538639472297" expanded="true" signature="206:2539" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="697:729" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="760:868" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="897:933" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="982:1180" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1038:1096" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1129:1174" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1225:1335" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1396:1639" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1422:1633" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1665:1814" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1858:2470" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1889:2463" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="1949:2342" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="2136:2219" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="2396:2452" ph="{...}" />
+                <marker date="1538639472297" expanded="true" signature="2508:2537" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,16 +134,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CustomScripts/ArduinoConnector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CustomScripts/ArduinoConnector.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +183,9 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Completed-Game" type="1045f7f1:UnityExplorerNode" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="CustomScripts" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -229,11 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538033782498</updated>
       <workItem from="1538033793711" duration="6191000" />
+      <workItem from="1538638161573" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6191000" />
+    <option name="totallyTimeSpent" value="7497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,18 +260,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -265,12 +272,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,65 +307,53 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlaneController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
-          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding>
-            <marker date="1538037596715" expanded="true" signature="6:159" ph="..." />
-            <marker date="1538037596715" expanded="true" signature="206:3431" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="664:772" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="821:1019" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="877:935" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="968:1013" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="1156:1968" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="1386:1462" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="1499:1562" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="1599:1700" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2013:2123" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2165:2426" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2191:2420" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2477:2650" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2677:2713" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2735:2856" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2882:2994" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="2897:2988" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
-            <marker date="1538037596715" expanded="true" signature="3037:3362" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="3068:3355" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="3173:3244" ph="{...}" />
-            <marker date="1538037596715" expanded="true" signature="3400:3429" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlaneController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ArduinoConnector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <marker date="1538040389945" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538040389945" expanded="true" signature="125:609" ph="{...}" />
-            <marker date="1538040389945" expanded="true" signature="227:605" ph="{...}" />
-          </folding>
+        <state relative-caret-position="1215">
+          <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="720">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Game/Scripts/CustomScripts/ArduinoConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
           <folding>
-            <marker date="1538042304894" expanded="false" signature="6:204" ph="..." />
-            <marker date="1538042304894" expanded="true" signature="251:3104" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="795:1204" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="1250:1997" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="1673:1905" ph="/* Add a physical force to our Player rigidbody using our 'movement' Vector3 above, ... */" />
-            <marker date="1538042304894" expanded="true" signature="2000:2143" ph="/* When this game object intersects a collider with 'is trigger' checked, ... */" />
-            <marker date="1538042304894" expanded="true" signature="2181:2581" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="2313:2578" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="2729:2994" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="2911:2991" ph="{...}" />
-            <marker date="1538042304894" expanded="true" signature="3056:3100" ph="{...}" />
+            <marker date="1538639472297" expanded="false" signature="6:159" ph="..." />
+            <marker date="1538639472297" expanded="true" signature="206:2539" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="697:729" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="760:868" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="897:933" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="982:1180" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1038:1096" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1129:1174" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1225:1335" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1396:1639" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1422:1633" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1665:1814" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1858:2470" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1889:2463" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="1949:2342" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="2136:2219" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="2396:2452" ph="{...}" />
+            <marker date="1538639472297" expanded="true" signature="2508:2537" ph="{...}" />
           </folding>
         </state>
       </provider>
